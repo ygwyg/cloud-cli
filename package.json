@@ -1,0 +1,43 @@
+{
+  "name": "cloud-cli",
+  "version": "0.0.1",
+  "description": "Deploy any container to Cloudflare with one command",
+  "main": "index.js",
+  "bin": {
+    "cloud": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cloudflare",
+    "containers", 
+    "docker",
+    "deploy",
+    "serverless",
+    "workers",
+    "cli"
+  ],
+  "author": "ygwyg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ygwyg/cloud-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ygwyg/cloud-cli/issues"
+  },
+  "homepage": "https://github.com/ygwyg/cloud-cli#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "jsonc-parser": "^3.3.1"
+  }
+}
