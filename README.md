@@ -18,11 +18,7 @@ Cloud CLI detects your container setup and generates the necessary Cloudflare Wo
 
 ## Installation
 
-```bash
-npm install -g cloud-cli
-```
-
-Or clone and install locally:
+Clone and install locally:
 
 ```bash
 git clone https://github.com/ygwyg/cloud-cli.git
